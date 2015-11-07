@@ -1,0 +1,60 @@
+.game .the-word {
+  padding: 0 40px;
+}
+
+.game .hero-text {
+  h1 {
+    color: $color-body;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-size: 2em;
+  }
+}
+
+.game .fillers {
+  border-bottom: 1px solid $color-body;
+  display: inline-block;
+  min-width: 100px;
+  min-height: 1px;
+}
+
+.game .fillers + .fillers {
+  margin-left: 1em;
+  margin-right: 0.5em;
+}
+
+.game h4 {
+  font-size: 1.25em;
+  color: $color-body;
+  margin-bottom: 30px;
+}
+
+.game p {
+  line-height: 3.5;
+}
+
+.game .label {
+  padding: 10px;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.game .label-primary {
+  background-color: red;
+}
+
+.game .label-foodpairing {
+  background-color: $color-secondary;
+}
+
+.game .timer {
+  background-color: red;
+  position: absolute;
+  bottom: 120px;
+  right: 0;
+  padding: 10px;
+  border-radius: 4px 0 0 4px;
+}

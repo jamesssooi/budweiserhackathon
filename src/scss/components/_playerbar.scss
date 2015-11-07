@@ -1,0 +1,43 @@
+.player-bar {
+  text-align: center;
+  background-color: #eae3dd;
+  color: $color-body;
+}
+
+.player {
+  display: inline-block;
+  margin: 10px 5px;
+  position: relative;
+}
+
+.player img {
+  max-width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.player span {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.6em;
+}
+
+.player.active img {
+  border: 2px solid $color-secondary;
+}
+
+.player .score {
+  position: absolute;
+  top: 0; right: 0;
+  background-color: #f2f5fa;
+  border: 1px solid #c3c3c3;
+  border-radius: 50%;
+  width: 20px; height: 20px;
+  color: $color-secondary;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
