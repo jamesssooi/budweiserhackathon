@@ -1,0 +1,53 @@
+.choose-age {
+
+  color: $color-body;
+
+  .hero-text h3, .hero-text span {
+    color: $color-body;
+  }
+
+  .hero-text h3 {
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+  }
+
+  .age-input-outer {
+    margin-top: 30px;
+  }
+
+  .age-input {
+
+    margin: 15px 0px;
+    text-align: center;
+
+    input {
+      background-color: $color-secondary;
+      box-shadow: none;
+      border: 0;
+      display: inline-block;
+      color: $color-body;
+      margin: 0 5px;
+    }
+
+    input.day { width: 25%; }
+    input.month { width: 25%; }
+    input.year { width: 30%; }
+
+  }
+
+  .legal {
+    font-weight: lighter;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+  }
+
+  .next-button-fixed span {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9em;
+    margin-top: 10px;
+    display: block;
+  }
+
+}

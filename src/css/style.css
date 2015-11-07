@@ -10,7 +10,8 @@ p {
   position: absolute;
   bottom: 40px;
   width: 100%;
-  padding: 0 50px; }
+  padding: 0 50px;
+  text-align: center; }
 
 .btn-primary {
   background-color: #f6932c;
@@ -433,3 +434,40 @@ body {
 
 .selected-beer button {
   margin-top: 30px; }
+
+.choose-age {
+  color: #3f120d; }
+  .choose-age .hero-text h3, .choose-age .hero-text span {
+    color: #3f120d; }
+  .choose-age .hero-text h3 {
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 600; }
+  .choose-age .age-input-outer {
+    margin-top: 30px; }
+  .choose-age .age-input {
+    margin: 15px 0px;
+    text-align: center; }
+    .choose-age .age-input input {
+      background-color: #f6932c;
+      box-shadow: none;
+      border: 0;
+      display: inline-block;
+      color: #3f120d;
+      margin: 0 5px; }
+    .choose-age .age-input input.day {
+      width: 25%; }
+    .choose-age .age-input input.month {
+      width: 25%; }
+    .choose-age .age-input input.year {
+      width: 30%; }
+  .choose-age .legal {
+    font-weight: lighter;
+    font-size: 0.9em;
+    margin-bottom: 20px; }
+  .choose-age .next-button-fixed span {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9em;
+    margin-top: 10px;
+    display: block; }

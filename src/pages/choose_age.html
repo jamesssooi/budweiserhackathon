@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<title ng-bind="title">Beer Game</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+
+	<!-- load bootstrap via CDN -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<!-- load css -->
+	<link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body class="choose-age">
+
+	<div class="container-fluid">
+		<div class="hero">
+			<div class="hero-text">
+				<img src="../assets/masthead.svg" />
+			</div>
+		</div>
+	</div>
+
+  <div class="container age-input-outer">
+    <div class="hero">
+      <div class="hero-text">
+        <h3>How old are you?</h3>
+        <span>Enter your birth date.</span>
+
+        <div class="age-input">
+          <input type="number" class="form-control input-lg day" name="birth_day" min=0 max=31 placeholder="DD">
+          <input type="number" class="form-control input-lg month" name="birth_day" min=0 max=31 placeholder="MM">
+          <input type="number" class="form-control input-lg year" name="birth_day" min=0 max=31 placeholder="YYYY">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container next-button-fixed">
+    <div class="legal">
+      <input type="checkbox" name="i_am_legal" /> You must be of legal age to enter this site
+    </div>
+    <button class="btn btn-primary btn-block btn-lg">ENTER</button>
+    <span>Enjoy Responsibly</span>
+  </div>
+
+</body>
+</html>
