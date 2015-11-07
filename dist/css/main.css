@@ -86,13 +86,14 @@ body {
 
 .waiting-room-players {
   display: block;
-  margin-top: 100px;
+  margin-top: 175px;
+  margin-bottom: 30px;
   position: relative; }
   .waiting-room-players .main-player {
     text-align: center; }
   .waiting-room-players .main-player img {
-    max-width: 120px;
-    height: 120px;
+    max-width: 90px;
+    height: 90px;
     border-radius: 50%;
     border: 3px solid white; }
   .waiting-room-players .main-player span {
@@ -103,15 +104,38 @@ body {
     font-size: 0.75em;
     text-align: center; }
   .waiting-room-players .player {
-    position: absolute; }
+    position: absolute;
+    text-align: center; }
   .waiting-room-players .player img {
-    max-width: 60px;
-    height: 60px;
+    max-width: 50px;
+    height: 50px;
     border-radius: 50%;
-    border: 3px solid white; }
+    border: 2px solid white; }
   .waiting-room-players .player span {
     text-align: center;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-size: 0.75em; }
+    font-size: 0.6em; }
+
+.waiting-room-players .player-one {
+  left: 5%;
+  bottom: 40px; }
+
+.waiting-room-players .player-two {
+  right: 5%;
+  bottom: 40px; }
+
+.waiting-room-players .player-three {
+  left: 15%;
+  bottom: 115px; }
+
+.waiting-room-players .player-four {
+  right: 15%;
+  bottom: 115px; }
+
+.waiting-room-players .player-five {
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  bottom: 140px; }

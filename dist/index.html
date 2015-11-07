@@ -1,25 +1,66 @@
 <!DOCTYPE html>
-<html lang="en-us" ng-app="swApp">
+<html lang="en-us">
 <head>
-	<title ng-bind="title">Sunway University Student Council | Student Welfare</title>
+	<title ng-bind="title">Beer Game</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="apple-mobile-web-app-capable" content="yes">
-	
-	
-	<!-- load scripts -->
-	<script src="js/main.min.js"></script>
-	
+
 	<!-- load bootstrap via CDN -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">	
-	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
 	<!-- load css -->
 	<link rel="stylesheet" href="css/main.css">
-	
-</head>	
-<body ng-controller="">
-	
-	<h1>Hello World!</h1>
-	
+
+</head>
+<body>
+
+	<div class="container-fluid beers">
+		<div class="hero">
+			<div class="hero-text">
+				<img src="assets/select_beer.svg" />
+			</div>
+		</div>
+	</div>
+
+	<div class="container beers-selection">
+		<div class="col-xs-4 beer-outer">
+			<div class="beer">
+				<img src="assets/beers/budweiser.png" />
+				<span>Budweiser</span>
+			</div>
+		</div>
+		<div class="col-xs-4 beer-outer">
+			<div class="beer">
+				<img src="assets/beers/becks.png" />
+				<span>Beck's</span>
+			</div>
+		</div>
+		<div class="col-xs-4 beer-outer">
+			<div class="beer">
+				<img src="assets/beers/hoegaarden.png" />
+				<span>Hoegaarden</span>
+			</div>
+		</div>
+		<div class="col-xs-4 beer-outer">
+			<div class="beer">
+				<img src="assets/beers/leffe.png" />
+				<span>Leffe</span>
+			</div>
+		</div>
+		<div class="col-xs-4 beer-outer">
+			<div class="beer">
+				<img src="assets/beers/stella_artois.png" />
+				<span>Stella</span>
+			</div>
+		</div>
+		<div class="col-xs-4 beer-outer">
+			<div class="beer">
+				<img src="assets/beers/corona_extra.png" />
+				<span>Corona</span>
+			</div>
+		</div>
+	</div>
+
 </body>
 </html>
