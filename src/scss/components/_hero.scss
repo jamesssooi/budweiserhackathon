@@ -1,0 +1,16 @@
+.hero {
+  width: 100%;
+  display: table;
+}
+
+.hero-text {
+  display: table-cell;
+  vertical-align: middle;
+  color: white;
+  text-align: center;
+}
+
+.hero-text img {
+  width: 100%;
+  max-width: 100%;
+}

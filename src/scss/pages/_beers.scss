@@ -1,0 +1,43 @@
+.beers {
+  width: 100%;
+}
+
+.beers .hero {
+  height: 40vh;
+}
+
+.beers .hero h2 {
+  display: block;
+  margin: 0 auto;
+}
+
+.beers-selection {
+  position: absolute;
+  width: 100vw;
+  bottom: 0;
+}
+
+.beer-outer {
+  margin-bottom: 40px;
+}
+
+.beer {
+  height: 110px;
+  text-align: center;
+}
+
+.beer span {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  letter-spacing: 1px;
+  color: $color-body;
+  line-height: 1;
+}
+
+.beer img {
+  display: block;
+  margin-left: auto; margin-right: auto;
+  max-height: 100%;
+  margin-bottom: 5px;
+}

@@ -1,0 +1,117 @@
+body {
+  font-family: "Open Sans", sans-serif; }
+
+p {
+  font-weight: lighter; }
+
+.next-button-fixed {
+  position: absolute;
+  bottom: 40px;
+  width: 100%; }
+
+.btn-primary {
+  background-color: #f6932c;
+  border: 1px solid #f6932c;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 1em;
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.15); }
+
+.btn-primary:hover {
+  background-color: #f58614;
+  border: 1px solid #f58614; }
+
+body {
+  background-color: #f8c713; }
+
+.hero {
+  width: 100%;
+  display: table; }
+
+.hero-text {
+  display: table-cell;
+  vertical-align: middle;
+  color: white;
+  text-align: center; }
+
+.hero-text img {
+  width: 100%;
+  max-width: 100%; }
+
+.beers {
+  width: 100%; }
+
+.beers .hero {
+  height: 40vh; }
+
+.beers .hero h2 {
+  display: block;
+  margin: 0 auto; }
+
+.beers-selection {
+  position: absolute;
+  width: 100vw;
+  bottom: 0; }
+
+.beer-outer {
+  margin-bottom: 40px; }
+
+.beer {
+  height: 110px;
+  text-align: center; }
+
+.beer span {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  letter-spacing: 1px;
+  color: #3f120d;
+  line-height: 1; }
+
+.beer img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 100%;
+  margin-bottom: 5px; }
+
+.waiting-room .hero-text {
+  color: #3f120d; }
+
+.waiting-room h3 {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px; }
+
+.waiting-room-players {
+  display: block;
+  margin-top: 100px;
+  position: relative; }
+  .waiting-room-players .main-player {
+    text-align: center; }
+  .waiting-room-players .main-player img {
+    max-width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid white; }
+  .waiting-room-players .main-player span {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.75em;
+    text-align: center; }
+  .waiting-room-players .player {
+    position: absolute; }
+  .waiting-room-players .player img {
+    max-width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid white; }
+  .waiting-room-players .player span {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.75em; }

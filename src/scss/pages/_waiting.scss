@@ -1,0 +1,60 @@
+
+.waiting-room {
+
+  .hero-text {
+    color: $color-body;
+  }
+
+  h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+
+}
+
+.waiting-room-players {
+
+  display: block;
+  margin-top: 100px;
+  position: relative;
+
+  .main-player {
+    text-align: center;
+  }
+
+  .main-player img {
+    max-width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid white;
+  }
+
+  .main-player span {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.75em;
+    text-align: center;
+  }
+
+  .player {
+    position: absolute;
+  }
+
+  .player img {
+    max-width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid white;
+  }
+
+  .player span {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.75em;
+  }
+}
