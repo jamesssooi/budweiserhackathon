@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<title ng-bind="title">Beer Game</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+
+	<!-- load bootstrap via CDN -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+	<!-- load css -->
+	<link rel="stylesheet" href="../css/main.css">
+
+</head>
+<body class="game judger">
+
+  <div class="container player-bar">
+    <div class="player">
+      <img src="../assets/sample_profile.jpg" />
+      <br />
+      <span>Leonardy</span>
+      <div class="score">4</div>
+    </div>
+    <div class="player active">
+      <img src="../assets/sample_profile.jpg" />
+      <br />
+      <span>Leonardy</span>
+      <div class="score">4</div>
+    </div>
+    <div class="player">
+      <img src="../assets/sample_profile.jpg" />
+      <br />
+      <span>Leonardy</span>
+      <div class="score">4</div>
+    </div>
+    <div class="player">
+      <img src="../assets/sample_profile.jpg" />
+      <br />
+      <span>Leonardy</span>
+      <div class="score">4</div>
+    </div>
+    <div class="player">
+      <img src="../assets/sample_profile.jpg" />
+      <br />
+      <span>Leonardy</span>
+      <div class="score">4</div>
+    </div>
+  </div>
+
+  <div class="container the-word">
+    <div class="hero">
+      <div class="hero-text">
+        <h1>LIFE IS BETTER WHEN IT'S FULL OF <span class="fillers"></span><span class="fillers"></span>.</h1>
+      </div>
+    </div>
+
+    <h4 class="text-center">Pick your favourite answer.</h4>
+
+  	<div>
+			<div class="input-group">
+				<input id="option" type="radio" name="field" value="option">
+				<label for="option"><span class="label label-foodpairing">Caramelised</span> <span class="label label-default">Balls</span></label>
+			</div>
+			<div class="input-group">
+				<input id="option" type="radio" name="field" value="option">
+				<label for="option"><span class="label label-foodpairing">Ginger</span> <span class="label label-default">Aliens</span></label>
+			</div>
+			<div class="input-group">
+				<input id="option" type="radio" name="field" value="option">
+				<label for="option"><span class="label label-primary">Fruity</span> <span class="label label-default">Zombies</span></label>
+			</div>
+			<div class="input-group">
+				<input id="option" type="radio" name="field" value="option">
+				<label for="option"><span class="label label-default">Hairy</span> <span class="label label-default">Grandmas</span></label>
+			</div>
+			<div class="input-group">
+				<input id="option" type="radio" name="field" value="option">
+				<label for="option"><span class="label label-default">Charming</span> <span class="label label-default">Badger</span></label>
+			</div>
+		</div>
+  </div>
+
+  <div class="container next-button-fixed">
+    <button class="btn btn-primary btn-block btn-lg">Next Round</button>
+  </div>
+
+</body>
+</html>

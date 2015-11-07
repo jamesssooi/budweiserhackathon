@@ -58,3 +58,21 @@
   padding: 10px;
   border-radius: 4px 0 0 4px;
 }
+
+.judger {
+  background-color: #823104;
+  color: white;
+  .hero .hero-text h1 { color: white; }
+  .the-word h4 { color: $color-primary; }
+  .fillers { border-bottom: 1px solid white; }
+}
+
+.judger {
+  input[type='radio'] {
+    margin-right: 15px;
+  }
+
+  .input-group {
+    margin-bottom: 20px;
+  }
+}

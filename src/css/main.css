@@ -269,3 +269,19 @@ body {
   right: 0;
   padding: 10px;
   border-radius: 4px 0 0 4px; }
+
+.judger {
+  background-color: #823104;
+  color: white; }
+  .judger .hero .hero-text h1 {
+    color: white; }
+  .judger .the-word h4 {
+    color: #f8c713; }
+  .judger .fillers {
+    border-bottom: 1px solid white; }
+
+.judger input[type='radio'] {
+  margin-right: 15px; }
+
+.judger .input-group {
+  margin-bottom: 20px; }
