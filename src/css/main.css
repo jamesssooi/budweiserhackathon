@@ -25,6 +25,18 @@ p {
   background-color: #f58614;
   border: 1px solid #f58614; }
 
+.label {
+  padding: 10px;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+.label-primary {
+  background-color: red; }
+
+.label-foodpairing {
+  background-color: #f6932c; }
+
 .shortdiv {
   border-top: 1px solid yellow;
   width: 30px;
@@ -32,6 +44,9 @@ p {
 
 .text-center {
   text-align: center; }
+
+.block {
+  display: block !important; }
 
 body {
   background-color: #f8c713; }
@@ -250,18 +265,6 @@ body {
 .game p {
   line-height: 3.5; }
 
-.game .label {
-  padding: 10px;
-  font-size: 1em;
-  text-transform: uppercase;
-  letter-spacing: 1px; }
-
-.game .label-primary {
-  background-color: red; }
-
-.game .label-foodpairing {
-  background-color: #f6932c; }
-
 .game .timer {
   background-color: red;
   position: absolute;
@@ -314,3 +317,42 @@ body {
     font-size: 1.2em;
     top: -30px;
     right: -30px; } }
+
+.selected-beer {
+  background-color: #eae3dd;
+  min-height: 100vh;
+  background-image: url("../assets/beers/bg_budweiser.png");
+  background-repeat: no-repeat;
+  background-position: left -75px bottom; }
+
+.selected-beer .hero {
+  margin-bottom: 50px; }
+
+.selected-beer .beer-info {
+  text-align: center; }
+
+.selected-beer h4 {
+  color: #f6932c;
+  display: inline-block;
+  padding: 5px 0;
+  border-top: 1px solid #f6932c;
+  border-bottom: 1px solid #f6932c;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+.selected-beer .flavour {
+  margin-bottom: 20px;
+  line-height: 3; }
+
+.selected-beer .pairings ul {
+  margin-top: 10px; }
+
+.selected-beer .pairings li {
+  margin-bottom: 10px; }
+
+.selected-beer .pairings {
+  color: #3f120d; }
+
+.selected-beer button {
+  margin-top: 30px; }

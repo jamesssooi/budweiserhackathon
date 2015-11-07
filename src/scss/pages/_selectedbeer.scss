@@ -1,0 +1,48 @@
+.selected-beer {
+  background-color: #eae3dd;
+  min-height: 100vh;
+  background-image: url('../assets/beers/bg_budweiser.png');
+  background-repeat: no-repeat;
+  background-position: left -75px bottom;
+}
+
+.selected-beer .hero {
+  margin-bottom: 50px;
+}
+
+.selected-beer .beer-info {
+  text-align: center;
+}
+
+.selected-beer h4 {
+  color: $color-secondary;
+  display: inline-block;
+  padding: 5px 0;
+  border-top: 1px solid $color-secondary;
+  border-bottom: 1px solid $color-secondary;
+
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.selected-beer .flavour {
+  margin-bottom: 20px;
+  line-height: 3;
+}
+
+.selected-beer .pairings ul {
+  margin-top: 10px;
+}
+
+.selected-beer .pairings li {
+  margin-bottom: 10px;
+}
+
+.selected-beer .pairings {
+  color: $color-body;
+}
+
+.selected-beer button {
+  margin-top: 30px;
+}

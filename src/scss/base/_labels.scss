@@ -1,0 +1,14 @@
+.label {
+  padding: 10px;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.label-primary {
+  background-color: red;
+}
+
+.label-foodpairing {
+  background-color: $color-secondary;
+}

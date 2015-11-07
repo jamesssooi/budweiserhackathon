@@ -35,21 +35,6 @@
   line-height: 3.5;
 }
 
-.game .label {
-  padding: 10px;
-  font-size: 1em;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.game .label-primary {
-  background-color: red;
-}
-
-.game .label-foodpairing {
-  background-color: $color-secondary;
-}
-
 .game .timer {
   background-color: red;
   position: absolute;
