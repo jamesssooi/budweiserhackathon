@@ -48,6 +48,9 @@ p {
 .block {
   display: block !important; }
 
+.float-right {
+  float: right; }
+
 body {
   background-color: #f8c713; }
 
@@ -247,6 +250,11 @@ body {
   line-height: 1.5;
   font-size: 2em; }
 
+.game .hero-text h2 {
+  font-size: 1.25em;
+  color: #3f120d;
+  margin-top: 0; }
+
 .game .fillers {
   border-bottom: 1px solid #3f120d;
   display: inline-block;
@@ -317,6 +325,75 @@ body {
     font-size: 1.2em;
     top: -30px;
     right: -30px; } }
+
+.game-over .container {
+  padding: 0 40px; }
+
+.game-over p {
+  line-height: 1; }
+
+.game-over .hero-text h1 {
+  line-height: 1; }
+
+.game-over .selected {
+  background-color: #eae3dd; }
+  .game-over .selected .player-summary {
+    border-bottom: 0; }
+
+.game-over .player-summary-outer {
+  display: table; }
+
+.game-over .player-summary {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dfae12;
+  display: table-cell;
+  vertical-align: middle; }
+
+.game-over .player-summary img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-right: 15px; }
+
+.game-over .player-summary h5 {
+  display: inline;
+  font-weight: bold;
+  color: #3f120d;
+  letter-spacing: 1px;
+  text-transform: uppercase; }
+
+.game-over .player-summary .scoring {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  color: #3f120d;
+  font-weight: bold;
+  font-size: 1.25em; }
+
+.game-over .player-summary span.label {
+  display: inline-block;
+  margin-left: 15px;
+  min-width: 50px;
+  font-size: 0.7em; }
+
+.game-over .scoring-footer {
+  margin-top: 15px;
+  margin-bottom: 30px; }
+
+.game-over .scoring-footer p {
+  line-height: 1.5;
+  text-align: center; }
+
+.game-over .scoring-footer-inputs {
+  margin-bottom: 30px; }
+  .game-over .scoring-footer-inputs input {
+    box-shadow: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 0; }
 
 .selected-beer {
   background-color: #eae3dd;

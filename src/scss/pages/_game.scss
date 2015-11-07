@@ -11,6 +11,12 @@
     line-height: 1.5;
     font-size: 2em;
   }
+
+  h2 {
+    font-size: 1.25em;
+    color: $color-body;
+    margin-top: 0;
+  }
 }
 
 .game .fillers {
@@ -82,4 +88,86 @@
 @keyframes score-outro {
   0% { opacity: 1; }
   100% { opacity: 0; width: 35px; height: 35px; line-height: 35px; font-size: 1.2em; top: -30px; right: -30px;}
+}
+
+.game-over {
+
+  .container { padding: 0 40px; }
+  p { line-height: 1; }
+
+  .hero-text {
+    h1 { line-height: 1;}
+  }
+
+  .selected {
+    background-color: #eae3dd;
+
+    .player-summary { border-bottom: 0; }
+
+  }
+
+  .player-summary-outer {
+    display: table;
+  }
+
+  .player-summary {
+    padding-top: 10px; padding-bottom: 10px;
+    border-bottom: 1px solid #dfae12;
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .player-summary img {
+    width: 50px; height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-right: 15px;
+  }
+
+  .player-summary h5 {
+    display: inline;
+    font-weight: bold;
+    color: $color-body;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .player-summary .scoring {
+    position: absolute;
+    right: 15px; top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+
+    color: $color-body;
+    font-weight: bold;
+    font-size: 1.25em;
+  }
+
+  .player-summary span.label {
+    display: inline-block;
+    margin-left: 15px;
+    min-width: 50px;
+    font-size: 0.7em;
+  }
+
+  .scoring-footer {
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+
+  .scoring-footer p {
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .scoring-footer-inputs {
+    margin-bottom: 30px;
+
+    input {
+      box-shadow: none;
+      background-color: rgba(255, 255, 255, 0.8);
+      border: 0;
+    }
+  }
+
 }

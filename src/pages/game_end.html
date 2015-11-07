@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<title ng-bind="title">Beer Game</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+
+	<!-- load bootstrap via CDN -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+	<!-- load css -->
+	<link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body class="game game-over">
+
+	<!-- Title text -->
+  <div class="container the-word">
+    <div class="hero">
+      <div class="hero-text">
+        <h1>Total Scores</h1>
+				<h2>Game Over!</h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+		<!-- Scoreboard -->
+		<div class="row selected">
+			<div class="col-xs-12 player-summary-outer">
+				<div class="player-summary">
+					<img src="../assets/sample_profile.jpg" />
+					<h5>Stevey</h5>
+					<div class="scoring">Winner!<span class="label label-primary">18</span></div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 player-summary-outer">
+				<div class="player-summary">
+					<img src="../assets/sample_profile.jpg" />
+					<h5>Phoebe</h5>
+					<div class="scoring"><span class="label label-default">12</span></div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 player-summary-outer">
+				<div class="player-summary">
+					<img src="../assets/sample_profile.jpg" />
+					<h5>Bud</h5>
+					<div class="scoring"><span class="label label-default">11</span></div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 player-summary-outer">
+				<div class="player-summary">
+					<img src="../assets/sample_profile.jpg" />
+					<h5>Bagnew</h5>
+					<div class="scoring"><span class="label label-default">9</span></div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 player-summary-outer">
+				<div class="player-summary">
+					<img src="../assets/sample_profile.jpg" />
+					<h5>Gazza</h5>
+					<div class="scoring"><span class="label label-default">7</span></div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Scoring footer -->
+		<div class="row scoring-footer">
+			<div class="col-xs-12">
+				<p>Register your name and mobile number to save your points and continue to play for more rewards!</p>
+
+				<div class="row scoring-footer-inputs">
+					<div class="col-xs-6">
+						<input type="text" class="form-control" placeholder="Name" />
+					</div>
+					<div class="col-xs-6">
+						<input type="text" class="form-control" placeholder="Contact" />
+					</div>
+				</div>
+				<button class="btn btn-primary btn-block btn-lg">Start another round</button>
+			</div>
+		</div>
+
+	</div>
+
+</body>
+</html>

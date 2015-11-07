@@ -329,6 +329,9 @@ body {
 .game-over .container {
   padding: 0 40px; }
 
+.game-over p {
+  line-height: 1; }
+
 .game-over .hero-text h1 {
   line-height: 1; }
 
@@ -369,13 +372,28 @@ body {
   -webkit-transform: translateY(-50%);
   color: #3f120d;
   font-weight: bold;
-  font-size: 1.5em; }
+  font-size: 1.25em; }
 
 .game-over .player-summary span.label {
   display: inline-block;
   margin-left: 15px;
   min-width: 50px;
-  font-size: 0.9em; }
+  font-size: 0.7em; }
+
+.game-over .scoring-footer {
+  margin-top: 15px;
+  margin-bottom: 30px; }
+
+.game-over .scoring-footer p {
+  line-height: 1.5;
+  text-align: center; }
+
+.game-over .scoring-footer-inputs {
+  margin-bottom: 30px; }
+  .game-over .scoring-footer-inputs input {
+    box-shadow: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 0; }
 
 .selected-beer {
   background-color: #eae3dd;
