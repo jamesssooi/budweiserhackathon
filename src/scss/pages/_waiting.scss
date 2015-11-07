@@ -1,6 +1,10 @@
 
 .waiting-room {
 
+  .container {
+    padding: 0 30px;
+  }
+
   .hero-text {
     color: $color-body;
   }
@@ -16,7 +20,7 @@
 .waiting-room-players {
 
   display: block;
-  margin-top: 175px;
+  margin-top: 160px;
   margin-bottom: 30px;
   position: relative;
 
@@ -69,13 +73,15 @@
   }
 
   .player-two {
-    right: 5%;
-    bottom: 40px;
+    left: 15%;
+    bottom: 115px;
   }
 
   .player-three {
-    left: 15%;
-    bottom: 115px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    bottom: 140px;
   }
 
   .player-four {
@@ -84,9 +90,7 @@
   }
 
   .player-five {
-    left: 50%;
-    transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-    bottom: 140px;
+    right: 5%;
+    bottom: 40px;
   }
 }

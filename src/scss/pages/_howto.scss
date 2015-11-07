@@ -1,0 +1,27 @@
+.howto {
+  background-color: $color-secondary;
+}
+
+.howto .container {
+  padding: 30px;
+}
+
+.howto ol {
+  padding-left: 15px;
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.howto ol li {
+  margin-bottom: 15px;
+  padding-left: 5px;
+}
+
+.howto p {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  color: yellow;
+  font-weight: 500;
+  margin-top: 10px; margin-bottom: 20px;
+}

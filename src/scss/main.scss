@@ -3,7 +3,7 @@
 @import 'base/colors';
 @import 'base/typography';
 @import 'base/buttons';
-
+@import 'base/reusable';
 
 // Import components
 @import 'components/body';
@@ -12,3 +12,4 @@
 // Import pages
 @import 'pages/beers';
 @import 'pages/waiting';
+@import 'pages/howto';

@@ -1,5 +1,6 @@
 body {
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  color: white; }
 
 p {
   font-weight: lighter; }
@@ -7,7 +8,8 @@ p {
 .next-button-fixed {
   position: absolute;
   bottom: 40px;
-  width: 100%; }
+  width: 100%;
+  padding: 0 50px; }
 
 .btn-primary {
   background-color: #f6932c;
@@ -16,18 +18,25 @@ p {
   font-weight: bold;
   letter-spacing: 1px;
   font-size: 1em;
-  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.15); }
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15); }
 
 .btn-primary:hover {
   background-color: #f58614;
   border: 1px solid #f58614; }
+
+.shortdiv {
+  border-top: 1px solid yellow;
+  width: 30px;
+  margin: 0 auto; }
 
 body {
   background-color: #f8c713; }
 
 .hero {
   width: 100%;
-  display: table; }
+  display: table;
+  margin-top: 20px;
+  margin-bottom: 20px; }
 
 .hero-text {
   display: table-cell;
@@ -59,7 +68,8 @@ body {
 
 .beer {
   height: 110px;
-  text-align: center; }
+  text-align: center;
+  cursor: pointer; }
 
 .beer span {
   font-weight: bold;
@@ -76,6 +86,9 @@ body {
   max-height: 100%;
   margin-bottom: 5px; }
 
+.waiting-room .container {
+  padding: 0 30px; }
+
 .waiting-room .hero-text {
   color: #3f120d; }
 
@@ -86,7 +99,7 @@ body {
 
 .waiting-room-players {
   display: block;
-  margin-top: 175px;
+  margin-top: 160px;
   margin-bottom: 30px;
   position: relative; }
   .waiting-room-players .main-player {
@@ -123,19 +136,43 @@ body {
   bottom: 40px; }
 
 .waiting-room-players .player-two {
-  right: 5%;
-  bottom: 40px; }
-
-.waiting-room-players .player-three {
   left: 15%;
   bottom: 115px; }
+
+.waiting-room-players .player-three {
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  bottom: 140px; }
 
 .waiting-room-players .player-four {
   right: 15%;
   bottom: 115px; }
 
 .waiting-room-players .player-five {
-  left: 50%;
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  bottom: 140px; }
+  right: 5%;
+  bottom: 40px; }
+
+.howto {
+  background-color: #f6932c; }
+
+.howto .container {
+  padding: 30px; }
+
+.howto ol {
+  padding-left: 15px;
+  font-size: 1em;
+  margin-bottom: 20px; }
+
+.howto ol li {
+  margin-bottom: 15px;
+  padding-left: 5px; }
+
+.howto p {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  color: yellow;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 20px; }
