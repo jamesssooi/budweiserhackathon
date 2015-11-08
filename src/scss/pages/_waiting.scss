@@ -26,6 +26,26 @@
 
   .main-player {
     text-align: center;
+    border: 3px solid $color-body;
+    height: 90px; width: 90px;
+    border-radius: 50%;
+    margin:0 auto;
+    padding-top: 10px;
+    line-height: 1.2;
+
+    .timer {
+      font-size: 2.5em;
+      font-weight: normal;
+      color: $color-body;
+    }
+
+    .timer-seconds {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 1em;
+      color: $color-body;
+    }
+
   }
 
   .main-player img {
@@ -69,28 +89,28 @@
 
   .player-one {
     left: 5%;
-    bottom: 40px;
+    bottom: 30px;
   }
 
   .player-two {
     left: 15%;
-    bottom: 115px;
+    bottom: 100px;
   }
 
   .player-three {
     left: 50%;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
-    bottom: 140px;
+    bottom: 130px;
   }
 
   .player-four {
     right: 15%;
-    bottom: 115px;
+    bottom: 100px;
   }
 
   .player-five {
     right: 5%;
-    bottom: 40px;
+    bottom: 30px;
   }
 }
