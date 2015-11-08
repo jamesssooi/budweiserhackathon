@@ -32,6 +32,10 @@ p {
   text-transform: uppercase;
   letter-spacing: 1px; }
 
+.label-default {
+  background-color: white;
+  color: #3f120d; }
+
 .label-primary {
   background-color: red; }
 
